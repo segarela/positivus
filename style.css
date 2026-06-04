@@ -1,4 +1,3 @@
-
 /* ШАПКА НАВИГАЦИЯ */
 .header__container {
     display: flex;
@@ -17,7 +16,7 @@
 .header__ul{
     display: flex;
     gap: 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font);
     font-weight: 400;
     list-style: none;
@@ -33,7 +32,7 @@
     display: inline-flex;
     align-items: center;    
     justify-content: center; 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font);
     width: 231px;
     height: 100%;
@@ -83,7 +82,7 @@ h1 {
     display: inline-flex;
     align-items: center;    
     justify-content: center; 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font);
     width: 264px;
     height: 68px; 
@@ -123,7 +122,7 @@ h1 {
 
 .section1__p{
     font-family: var(--font);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
     background: #b9ff66;
     border-radius: 8px;
@@ -131,7 +130,7 @@ h1 {
 }
 .section1__p2{
     font-family: var(--font);
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-left: 40px;
     color: #191a23;
 }
@@ -176,7 +175,7 @@ h1 {
 }
 .block1_h2 {
     background: #b9ff66;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: var(--font);
     border-radius: 8px;
     font-weight: 500;
@@ -188,7 +187,7 @@ h1 {
 .block1_link_text {
     display: inline;
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 .section2_bottom {
@@ -211,7 +210,7 @@ h1 {
 
 .block2_h2 {
     background: #ffffff;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: var(--font);
     border-radius: 8px;
     font-weight: 500;
@@ -227,7 +226,7 @@ h1 {
 .block3_link_text {
     display: inline;
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     color: #f3f3f3;
 }
@@ -252,7 +251,7 @@ h1 {
 }
 .block6_h2 {
     background: #b9ff66;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: var(--font);
     border-radius: 8px;
     font-weight: 500;
@@ -284,19 +283,19 @@ h1 {
 }
 .section3__h2 {
     font-family: var(--font);
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
 }
 .section3__text {
     font-family: var(--font);
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-top: 26px;
 }
 .section3__button {
     width: 288px;
     height: 68px;
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
     background-color: #191A23;
     border-radius: 14px;
@@ -354,19 +353,19 @@ h1 {
 }
 .section5_link1{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.25rem;
     display: block;
     margin-top: 10px;    
 }
 .section5_link2{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.25rem;
     display: block;
     margin-top: 10px;
 }
 .section5_link3{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.25rem;
     display: block;
     margin-top: 10px;
 }
@@ -419,19 +418,19 @@ h1 {
     align-items: center;
 }
 .section7_01{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-family: var(--font);
     font-weight: 500;
     margin-right: 25px;
 }
 .section7_text {
     font-family: var(--font);
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 .section7_main_bottom > p{
     font-family: var(--font);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .blocks7{
     display: flex;
@@ -452,4 +451,147 @@ h1 {
     border: var(--border);
     width: 1114px;
     height: 77px;
+}
+
+/* СЕКЦИЯ 9 */
+.section9{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 80px;
+    padding: 0 100px;
+    gap: 40px;
+}
+
+.cards {
+    border: 1px solid #000000;
+    width: 387px;
+    height: 331px;
+    border-radius: 45px;
+    box-shadow: 0 5px 1px rgba(0,0,0,0.8); 
+    padding: 40px 35px 60px 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.section9_row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.cards-top {
+    display: flex;
+    position: relative;
+
+}
+.cards-top > img {
+    object-fit: contain;
+}    
+
+.social-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cards-text {
+    font-size: 1.125rem;
+    font-family: var(--font);
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
+.section9_separator {
+    width: 100%;
+    max-width: 307px;
+    border: 1px solid black;
+}
+.cards-bottom > p {
+    font-size: 1.125rem;
+    font-family: var(--font);
+}
+
+/* СЕКЦИЯ 10 ФОРМА  */
+
+.section10 {
+    display: flex;
+    justify-content: center;
+}
+.wrapper10 {
+    width: 100%;
+    max-width: 1240px;
+    height: 773px;
+    background-color: #f3f3f3;
+    border-radius: 2.8125rem;
+    position: relative;
+    overflow-x: clip;
+}
+.form10{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 556px;
+    height: 663px;
+    font-family: var(--font);
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+#input-text, #input-email {
+    width: 100%;
+    max-width: 556px;
+    height: 59px;
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+#input-message {
+    width: 100%;
+    max-width: 556px;
+    max-height: 190px;
+    border-radius: 14px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+#radio1, #radio2 {
+    background-color: #b9ff66;
+    width: 28px;
+    height: 28px;
+}
+.form_radio {
+    width: 276px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button_10{
+    width: 100%;
+    max-width: 556px;
+    height: 68px;
+    background-color: #191A23;
+    border-radius: 14px;
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.button_10:hover{
+    background-color:#f3f3f3;
+    border: 2px solid #191A23;
+    color: #191A23;
+}
+.picture10{
+    object-fit: cover;
+    position: absolute;
+    top: 62px;
+    right: 0;
+    transform: translateX(50%); 
 }
